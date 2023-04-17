@@ -2,8 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/NewLanguage/NewLanguage.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/NewSolution1/NewSolution1.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/HTML/HTML.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" folder="" />
     </projectModules>
   </component>
