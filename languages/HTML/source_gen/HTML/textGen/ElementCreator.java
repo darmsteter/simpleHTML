@@ -54,9 +54,9 @@ public abstract class ElementCreator {
   protected static void createAttribute(SNode attribute, final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append(" ");
-    tgs.append(SPropertyOperations.getString(attribute, PROPS.name$MnvL).replace("\"", "&quot"));
+    tgs.append(SPropertyOperations.getString(attribute, PROPS.name$MnvL).replace("\"", "&quot;"));
     tgs.append("=\"");
-    tgs.append(SPropertyOperations.getString(attribute, PROPS.value$aX4U).replace("\"", "&quot"));
+    tgs.append(SPropertyOperations.getString(attribute, PROPS.value$aX4U).replace("\"", "&quot;"));
     tgs.append("\"");
     if (SLinkOperations.getTarget(attribute, LINKS.attribute$oIXP) != null) {
       ElementCreator.createAttribute(SLinkOperations.getTarget(attribute, LINKS.attribute$oIXP), ctx);
@@ -66,7 +66,7 @@ public abstract class ElementCreator {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("\t".repeat(tabs));
     tgs.append("<");
-    tgs.append(SPropertyOperations.getEnum(headElement, PROPS.name$Y86d).toString().replace("\"", "&quot"));
+    tgs.append(SPropertyOperations.getEnum(headElement, PROPS.name$Y86d).toString().replace("\"", "&quot;"));
     if (SLinkOperations.getTarget(headElement, LINKS.attribute$cnGL) != null) {
       ElementCreator.createAttribute(SLinkOperations.getTarget(headElement, LINKS.attribute$cnGL), ctx);
     }
@@ -80,7 +80,7 @@ public abstract class ElementCreator {
     }
     tgs.append("\t".repeat(tabs));
     tgs.append("</");
-    tgs.append(SPropertyOperations.getEnum(headElement, PROPS.name$Y86d).toString().replace("\"", "&quot"));
+    tgs.append(SPropertyOperations.getEnum(headElement, PROPS.name$Y86d).toString().replace("\"", "&quot;"));
     tgs.append(">\n");
   }
   protected static void createBodyElement(SNode bodyElement, int tabs, final TextGenContext ctx) {
@@ -101,7 +101,7 @@ public abstract class ElementCreator {
     }
     tgs.append("\t".repeat(tabs));
     tgs.append("</");
-    tgs.append(SPropertyOperations.getEnum(bodyElement, PROPS.name$dlq3).toString().replace("\"", "&quot"));
+    tgs.append(SPropertyOperations.getEnum(bodyElement, PROPS.name$dlq3).toString().replace("\"", "&quot;"));
     tgs.append(">\n");
 
   }
