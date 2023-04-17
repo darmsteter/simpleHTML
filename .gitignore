@@ -1,0 +1,5 @@
+# Project exclude paths
+/languages/NewLanguage/classes_gen/
+/languages/NewLanguage/generator/classes_gen/
+/solutions/NewSolution1/classes_gen/
+/solutions/sandbox/classes_gen/
