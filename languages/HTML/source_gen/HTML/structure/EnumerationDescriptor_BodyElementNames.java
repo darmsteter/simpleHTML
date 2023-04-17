@@ -36,9 +36,10 @@ public class EnumerationDescriptor_BodyElementNames extends EnumerationDescripto
   private final EnumerationDescriptor.MemberDescriptor myMember_sub_0 = new EnumerationDescriptor.MemberDescriptor("sub", "sub", 0x2532880eb878153bL, "r:1e740840-f958-4498-af6e-15ae83af88ab(HTML.structure)/2680354325044663611");
   private final EnumerationDescriptor.MemberDescriptor myMember_sup_0 = new EnumerationDescriptor.MemberDescriptor("sup", "sup", 0x2532880eb878159dL, "r:1e740840-f958-4498-af6e-15ae83af88ab(HTML.structure)/2680354325044663709");
   private final EnumerationDescriptor.MemberDescriptor myMember_q_0 = new EnumerationDescriptor.MemberDescriptor("q", "q", 0x2532880eb87816adL, "r:1e740840-f958-4498-af6e-15ae83af88ab(HTML.structure)/2680354325044663981");
+  private final EnumerationDescriptor.MemberDescriptor myMember_a_0 = new EnumerationDescriptor.MemberDescriptor("a", "a", 0x2532880eb8bb12c7L, "r:1e740840-f958-4498-af6e-15ae83af88ab(HTML.structure)/2680354325049053895");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x6b97a825706c4630L, 0x9e0f315c0b91cdb2L, 0x2532880eb86f2428L, 0x2532880eb86f2429L, 0x2532880eb86f25b0L, 0x2532880eb876223fL, 0x2532880eb8762243L, 0x2532880eb8762249L, 0x2532880eb876224fL, 0x2532880eb8762256L, 0x2532880eb876225eL, 0x2532880eb8762267L, 0x2532880eb8780f35L, 0x2532880eb87812d1L, 0x2532880eb87812f7L, 0x2532880eb878136cL, 0x2532880eb87813aeL, 0x2532880eb87813f1L, 0x2532880eb878144fL, 0x2532880eb8781494L, 0x2532880eb87814daL, 0x2532880eb878153bL, 0x2532880eb878159dL, 0x2532880eb87816adL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_div_0, myMember_span_0, myMember_p_0, myMember_h1_0, myMember_h2_0, myMember_h3_0, myMember_h4_0, myMember_h5_0, myMember_h6_0, myMember_pre_0, myMember_b_0, myMember_strong_0, myMember_i_0, myMember_em_0, myMember_mark_0, myMember_small_0, myMember_del_0, myMember_ins_0, myMember_sub_0, myMember_sup_0, myMember_q_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x6b97a825706c4630L, 0x9e0f315c0b91cdb2L, 0x2532880eb86f2428L, 0x2532880eb86f2429L, 0x2532880eb86f25b0L, 0x2532880eb876223fL, 0x2532880eb8762243L, 0x2532880eb8762249L, 0x2532880eb876224fL, 0x2532880eb8762256L, 0x2532880eb876225eL, 0x2532880eb8762267L, 0x2532880eb8780f35L, 0x2532880eb87812d1L, 0x2532880eb87812f7L, 0x2532880eb878136cL, 0x2532880eb87813aeL, 0x2532880eb87813f1L, 0x2532880eb878144fL, 0x2532880eb8781494L, 0x2532880eb87814daL, 0x2532880eb878153bL, 0x2532880eb878159dL, 0x2532880eb87816adL, 0x2532880eb8bb12c7L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_div_0, myMember_span_0, myMember_p_0, myMember_h1_0, myMember_h2_0, myMember_h3_0, myMember_h4_0, myMember_h5_0, myMember_h6_0, myMember_pre_0, myMember_b_0, myMember_strong_0, myMember_i_0, myMember_em_0, myMember_mark_0, myMember_small_0, myMember_del_0, myMember_ins_0, myMember_sub_0, myMember_sup_0, myMember_q_0, myMember_a_0);
 
   @Nullable
   @Override
@@ -101,6 +102,8 @@ public class EnumerationDescriptor_BodyElementNames extends EnumerationDescripto
         return myMember_sup_0;
       case "q":
         return myMember_q_0;
+      case "a":
+        return myMember_a_0;
     }
     return null;
   }

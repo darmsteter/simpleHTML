@@ -12,8 +12,6 @@
       </concept>
       <concept id="2680354325044539563" name="HTML.structure.HeadElement" flags="ng" index="2thby_">
         <property id="2680354325044544316" name="name" index="2thcGM" />
-        <child id="2680354325044542036" name="content" index="2thb9q" />
-        <child id="2680354325044640636" name="attribute" index="2thjdM" />
       </concept>
       <concept id="2680354325043973129" name="HTML.structure.Html" flags="ng" index="2tnKg7">
         <child id="2680354325044536972" name="head" index="2thaU2" />
@@ -25,7 +23,6 @@
       </concept>
       <concept id="2680354325043962922" name="HTML.structure.BodyElement" flags="ng" index="2tnYK$">
         <property id="2680354325044079227" name="name" index="2tnq9P" />
-        <child id="2680354325043964874" name="content" index="2tnYf4" />
         <child id="2680354325043966410" name="attribute" index="2tnZB4" />
       </concept>
       <concept id="2680354325043967349" name="HTML.structure.Attribute" flags="ng" index="2tnZPV">
@@ -41,40 +38,26 @@
   </registry>
   <node concept="2tnKg7" id="2kMy0USruaw">
     <node concept="2tnKBQ" id="2kMy0USruc9" role="2tnKp8">
-      <node concept="2tnYK$" id="2kMy0USrRAL" role="2tnKVn">
-        <property role="2tnq9P" value="2kMy0USrMgD/div" />
-        <node concept="2tnYK$" id="2kMy0USGPSy" role="2tnYf4">
-          <property role="2tnq9P" value="2kMy0USu1dG/i" />
-        </node>
-        <node concept="2tnZPV" id="2kMy0UStiJc" role="2tnZB4">
-          <property role="TrG5h" value="scr" />
+      <node concept="2tnYK$" id="2kMy0USILcq" role="2tnKVn">
+        <property role="2tnq9P" value="2kMy0USILb7/a" />
+        <node concept="2tnZPV" id="2kMy0USIWGz" role="2tnZB4">
+          <property role="TrG5h" value="href" />
           <property role="2tnZhO" value="https://github.com/" />
-          <node concept="2tnZPV" id="2kMy0UStiJe" role="2thBDI">
-            <property role="TrG5h" value="width" />
-            <property role="2tnZhO" value="500" />
-            <node concept="2tnZPV" id="2kMy0UStlTs" role="2thBDI">
-              <property role="TrG5h" value="hight" />
-              <property role="2tnZhO" value="600" />
-            </node>
-          </node>
         </node>
       </node>
     </node>
     <node concept="2thaEY" id="2kMy0UStOnL" role="2thaU2">
       <node concept="2thby_" id="2kMy0USAtag" role="2thccs">
         <property role="2thcGM" value="2kMy0UStzYx/title" />
-        <node concept="2thby_" id="2kMy0USDyBd" role="2thb9q">
-          <property role="2thcGM" value="2kMy0USu9Xb/link" />
-        </node>
-        <node concept="2tnZPV" id="2kMy0USCw14" role="2thjdM">
-          <property role="TrG5h" value="src" />
-          <property role="2tnZhO" value="https://github.com/" />
-        </node>
       </node>
     </node>
     <node concept="2tnZPV" id="2kMy0USIL9S" role="2thYQq">
       <property role="TrG5h" value="lang" />
       <property role="2tnZhO" value="en" />
+      <node concept="2tnZPV" id="2kMy0USILb3" role="2thBDI">
+        <property role="TrG5h" value="class" />
+        <property role="2tnZhO" value="scroll-smooth dark" />
+      </node>
     </node>
   </node>
 </model>
