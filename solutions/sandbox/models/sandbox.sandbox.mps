@@ -17,7 +17,6 @@
       </concept>
       <concept id="2680354325043973129" name="HTML.structure.Html" flags="ng" index="2tnKg7">
         <child id="2680354325044536972" name="head" index="2thaU2" />
-        <child id="2680354325044521748" name="bodyAttribute" index="2thQcq" />
         <child id="2680354325044487572" name="htmlAttribute" index="2thYQq" />
         <child id="2680354325043973702" name="body" index="2tnKp8" />
       </concept>
@@ -68,26 +67,14 @@
           <property role="2thcGM" value="2kMy0USu9Xb/link" />
         </node>
         <node concept="2tnZPV" id="2kMy0USCw14" role="2thjdM">
-          <property role="TrG5h" value="a" />
-          <property role="2tnZhO" value="hello" />
+          <property role="TrG5h" value="src" />
+          <property role="2tnZhO" value="https://github.com/" />
         </node>
       </node>
     </node>
-    <node concept="2tnZPV" id="2kMy0USB0Vh" role="2thYQq">
-      <property role="TrG5h" value="src" />
-      <property role="2tnZhO" value="iiiif" />
-      <node concept="2tnZPV" id="2kMy0USBxWL" role="2thBDI">
-        <property role="TrG5h" value="ajdk" />
-        <property role="2tnZhO" value="fdfd" />
-      </node>
-    </node>
-    <node concept="2tnZPV" id="2kMy0USEFqC" role="2thQcq">
-      <property role="TrG5h" value="n" />
-      <property role="2tnZhO" value="&quot;yyi" />
-      <node concept="2tnZPV" id="2kMy0USFr4X" role="2thBDI">
-        <property role="TrG5h" value="ndkdn" />
-        <property role="2tnZhO" value="dfdff" />
-      </node>
+    <node concept="2tnZPV" id="2kMy0USIL9S" role="2thYQq">
+      <property role="TrG5h" value="lang" />
+      <property role="2tnZhO" value="en" />
     </node>
   </node>
 </model>
